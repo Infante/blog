@@ -25,6 +25,7 @@ module.exports = {
 		// Next.js
 		'@typescript-eslint/triple-slash-reference': 'off',
 		'react/react-in-jsx-scope': 'off',
+		'react/prefer-read-only-props': 'off',
 
 		// Doesn't work with next zero js
 		'@next/next/no-img-element': 'off',
