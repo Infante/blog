@@ -16,15 +16,6 @@ export default class BlogDocument extends Document {
 				<body>
 					<Main />
 					<NextScript />
-
-					<script async defer src="https://lab.alistair.cloud/latest.js" />
-					<noscript>
-						<img
-							src="https://lab.alistair.cloud/noscript.gif"
-							alt=""
-							referrerPolicy="no-referrer-when-downgrade"
-						/>
-					</noscript>
 				</body>
 			</Html>
 		);

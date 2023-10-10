@@ -13,14 +13,22 @@ export default function Home() {
 	return (
 		<main className="space-y-8">
 			<h2>
-				<span>alistair.blog</span>{' '}
+				<span>blog.robertoinfante.com</span>{' '}
 				<a
 					target="_blank"
-					href="https://github.com/alii/blog"
+					href="https://github.com/Infante"
 					className="text-neutral-500 hover:text-blue-500"
 					rel="noreferrer"
 				>
 					– github
+				</a>{' '}
+				<a
+					target="_blank"
+					href="https://twitter.com/liluzi"
+					className="text-neutral-500 hover:text-blue-500"
+					rel="noreferrer"
+				>
+					– twitter
 				</a>
 			</h2>
 
@@ -44,7 +52,10 @@ export default function Home() {
 function BlogLink(props: {href: string; children: ReactNode}) {
 	return (
 		<li>
-			<Link className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-600" href={props.href}>
+			<Link
+				className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-600"
+				href={props.href}
+			>
 				{props.children}
 			</Link>
 		</li>
